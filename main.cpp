@@ -16,6 +16,8 @@ int main() {
     vehiclesArray[3] = new Car("Tesla", "T2", "electricity", "large");
     vehiclesArray[4] = new Bicycle("Mizuno", "Wave", 10);
     vehiclesArray[5] = new Car("BMW", "X5", "diesel", "grande");
+    vehiclesArray[1] = new Jet("Global", "6000", "diesel", "4");
+    vehiclesArray[1] = new Skateboard("Powell", "Golden Dragon");
 
     printVehiclesRoster(vehiclesArray, size);
 
