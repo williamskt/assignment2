@@ -24,3 +24,5 @@ h.	Inheritance is the mechanism of basing an object upon another object/class. P
 i.	While the “Integration manager” relies on a single centralized integration manager to resolve conflicts, the “Dictator and Lieutenants” workflow has additional integration managers that resolve conflicts between only some developers.
 
 j.	With such a high number of developers, it would be unreasonable to rely on the devs to resolve their own conflicts with dozens of other versions. Meanwhile, with the dictator and lieutenants workflow, developers would be able to just push to their own repositories and have several lieutenant managers that resolve conflicts between only a few developers.	
+
+Polymorphism is used in the prototype because all of the classes inherit from the Vehicle class but add onto it to form different objects. Encapsulation is used because the PoweredVehicle class has a protected variable fuelType that is only accessible to children of that class.
