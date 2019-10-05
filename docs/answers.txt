@@ -1,0 +1,26 @@
+a.	Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 764 bytes | 764.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/williamskt/assignment2
+   f4975e5..d2a53b5  master -> master
+
+b.	9; git rev-list --count HEAD
+
+c.	9 days ago
+
+d.	Branches serve as snapshots to specific commits, allowing users to access a version of a project after changes have been made.
+
+e.	Git status displays differences between the origin file and the current commit, while git log shows the entire commit history.
+
+f.	git log --follow --Vehicle.h
+
+g.	git log --all --grep=‘file’
+
+h.	Inheritance is the mechanism of basing an object upon another object/class. Polymorphism is the concept that different classes can implement the same interface in different ways. Encapsulation is the concept that the internal representation of an object is generally hidden from view outside its definition.
+
+i.	While the “Integration manager” relies on a single centralized integration manager to resolve conflicts, the “Dictator and Lieutenants” workflow has additional integration managers that resolve conflicts between only some developers.
+
+j.	With such a high number of developers, it would be unreasonable to rely on the devs to resolve their own conflicts with dozens of other versions. Meanwhile, with the dictator and lieutenants workflow, developers would be able to just push to their own repositories and have several lieutenant managers that resolve conflicts between only a few developers.	
